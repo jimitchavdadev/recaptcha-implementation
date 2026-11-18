@@ -1,0 +1,31 @@
+{
+  "name": "recaptcha-implementation",
+  "version": "1.0.0",
+  "description": "Clean, modular reCAPTCHA v2 & v3 implementation from scratch with behavioral telemetry, kinetic entropy, and server verification",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch index.ts",
+    "start": "bun index.ts",
+    "test": "bun test",
+    "demo": "bun index.ts"
+  },
+  "keywords": [
+    "recaptcha",
+    "recaptcha-v2",
+    "recaptcha-v3",
+    "bot-detection",
+    "telemetry",
+    "browser-fingerprint",
+    "anti-bot",
+    "security"
+  ],
+  "author": "Jimit Chavda (jimitchavdadev)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5 || ^7"
+  }
+}
